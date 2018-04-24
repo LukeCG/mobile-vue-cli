@@ -1,0 +1,121 @@
+/*布局*/
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.cb {
+	clear: both;
+}
+
+.cl {
+	clear: left;
+}
+
+.cr {
+	clear: rigth;
+}
+.ofa{
+	overflow: auto
+}
+.rel {
+	position: relative;
+}
+
+.abs {
+	position: absolute;
+}
+
+.tac {
+	text-align: center;
+}
+
+.tal {
+	text-align: left;
+}
+
+.tar {
+	text-align: right;
+}
+
+.dib {
+	display: inline-block;
+}
+
+.vab {
+	vertical-align: bottom;
+}
+
+.vam {
+	vertical-align: middle;
+}
+
+.vat {
+	vertical-align: top;
+}
+
+.font12 {
+	font-size: 12px;
+}
+
+.font14 {
+	font-size: 14px;
+}
+
+.font16 {
+	font-size: 16px;
+}
+
+.font28 {
+	font-size: 28px;
+}
+
+.font40 {
+	font-size: 40px;
+}
+
+/*宽度*/
+
+.w100p {
+	width: 100%
+}
+
+.w20p {
+	width: 20%;
+}
+
+/*边距*/
+
+.m5 {
+	margin: 5px;
+}
+
+.p5 {
+	padding: 5px;
+}
+
+.pt5 {
+	padding-top: 5px;
+}
+
+.mb20{
+	margin-bottom: 20px;
+}
+
+
+/* 去除display:inline-block之间的空隙 */
+.f-space{
+	font-size: 0;
+	-webkit-text-size-adjust:none;
+}
+
+/* 超出长度显示省略号 */
+.text-ellipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
