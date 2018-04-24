@@ -22,7 +22,7 @@ npm run test
 >3.  二次封装了axios，用于配置请求的通用项，统一处理错误请求，配置token等等
 >4.  新增util文件夹，用于存放通用函数库（如处理cookie、H5本地存储等等）
 
-##引入新的框架或库
+## 引入新的框架或库
 >1.  引入了mock.js，用于后端接口数据模拟
 >2.  引入了fastclick.js，用于解决click时间延迟300ms的问题
 >3.  引入了rest.css和base.css
