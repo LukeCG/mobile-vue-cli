@@ -3,8 +3,8 @@
 
 ## 常用命令
 ``` bash
-# install dependencies
-npm install
+# 下载框架依赖
+npm i
 
 # 开发环境
 npm run dev
