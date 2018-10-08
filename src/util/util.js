@@ -114,8 +114,16 @@ const timeStamp = (time) => {
 	return new Date(ymd[0], ymd[1], ymd[2], hms[0], hms[1], hms[2]).getTime();
 } 
 
+// 判断是否移动端
 const isMobile = (mobile) => {
 	return (/^1[34578]\d{9}$/.test(mobile))
+}
+
+// 深度克隆对象
+const clone = (origin) => {
+	let originProto = Object.getPrototypeOf(origin); // 获取对象原型链
+	let createOrigin = Object.create(originProto); // 创建一个原型为originProto的新对象
+	return Object.assign(createOrigin, origin); // 把origin对象的数据复杂到新对象上
 }
 
 // 平台
@@ -145,4 +153,5 @@ export default {
 	timeStamp,
 	os,
 	isMobile,
+	clone
 }
