@@ -2,6 +2,7 @@
 	<div id="login">
 		<p>{{str}}</p>
 		<div class="u-icon"></div>
+		<test></test>
 	</div>
 </template>
 
@@ -14,6 +15,8 @@ export default {
 		}
 	},
 	created (){
+		this.$alert('调用成功！')
+
 		// mock数据
 		this.http.post(this.url.login, {}).then((res)=>{
 			console.log(res);

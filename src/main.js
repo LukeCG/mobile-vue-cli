@@ -2,6 +2,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// 所有组件全局注册，不需要局部引入
+import {install} from './components';
+install(Vue);
+// import './components/index.less'; // 引入组件相关的样式
+
 // 后端接口数据模拟，开发的时候用到
 if (process.env.NODE_ENV === 'development'){
 	require('./mock.js')
