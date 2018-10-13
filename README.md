@@ -22,6 +22,7 @@ npm run test
 >2.  新增webpack插件indexHtmlPublicPath，可用于修改注入到index.html的链接的前缀
 >3.  二次封装了axios，用于配置请求的通用项，统一处理错误请求，配置token等等
 >4.  新增util文件夹，用于存放通用函数库（如处理cookie、H5本地存储等等）
+>5.  全局引入所有可复用组件，避免局部引入，提升开发效率
 ```
 
 ## 引入新的框架或库
