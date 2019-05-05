@@ -15,6 +15,12 @@ export default {
 		}
 	},
 	created (){
+		let ad = function (a, b, c){
+			console.log(a,b,c)
+		}
+
+		ad.apply(this, [1, 2, 3, 4])
+
 		this.$alert('调用成功！')
 
 		// mock数据
